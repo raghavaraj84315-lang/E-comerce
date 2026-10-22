@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Shop | Anime World</title>
+<meta name="description" content="Browse and search anime hoodies, cosplay and accessories. Filter by series, category and price.">
+<meta name="theme-color" content="#c62828">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Shop | Anime World">
+<meta property="og:description" content="Browse and search anime hoodies, cosplay and accessories. Filter by series, category and price.">
+<meta property="og:image" content="images/anime.png">
+<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="images/Untitled-1.png">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter&family=Play&display=swap" rel="stylesheet">
+<script src="index.js" defer></script>
+</head>
+<body>
+<section id="header"></section>
+<section class="ph h-shop"><div class="space"><h1>#stayhome</h1><p>Get Your Fav Anime products......</p></div></section>
+<h3 class="sb">Search By:</h3>
+<section id="banner-3">
+<div data-cat="shoes"><h2>SHOES COLLECTION</h2></div>
+<div data-cat="hoodies"><h2>HOODIES COLLECTION</h2></div>
+<div data-cat="figures"><h2>ACTION FIGURES <br> COLLECTION</h2></div>
+<div data-cat="cosplay"><h2>COSPLAYS COLLECTION</h2></div>
+</section>
+<section id="tools">
+<input id="q" type="search" placeholder="Search products..." aria-label="Search">
+<select id="cat" aria-label="Category"><option value="">All categories</option><option value="hoodies">Hoodies</option><option value="cosplay">Cosplay</option><option value="accessories">Accessories</option><option value="shoes">Shoes</option><option value="figures">Action Figures</option></select>
+<select id="ser" aria-label="Anime series"></select>
+<select id="srt" aria-label="Sort"><option value="">Sort: Featured</option><option value="a">Price: Low to High</option><option value="d">Price: High to Low</option><option value="r">Top Rated</option></select>
+</section>
+<section class="section-p1"><p id="cnt"></p><div class="pro-container" id="all"></div></section>
+<footer class="footer"></footer>
+</body>
+</html>
